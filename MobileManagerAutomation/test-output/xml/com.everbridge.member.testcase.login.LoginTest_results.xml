@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="69.011">
+  <properties />
+  
+  
+            <testcase name="loginFor1stTime" time="69.011" classname="com.everbridge.member.testcase.login.LoginTest" />
+      
+</testsuite>

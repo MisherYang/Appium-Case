@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="10" name="Failed suite [Default]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.everbridge.manager.testcase.roles.AccountAdminTest">
+        <methods>
+          <include name="accountAdminTest"/>
+        </methods>
+      </class> <!-- com.everbridge.manager.testcase.roles.AccountAdminTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default] -->

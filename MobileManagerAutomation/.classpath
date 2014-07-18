@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/cssparser-0.9.11.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/htmlunit-2.13.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/htmlunit-core-js-2.13.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/httpmime-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/json-20080701.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/nekohtml-1.9.19.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/selenium-java-2.41.0-srcs.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/xercesImpl-2.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/Eclipse-jee-kepler-SR2-win32-x86_64/appiumjars/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/google-gson-2.2.4-release (1)/google-gson-2.2.4/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/google-gson-2.2.4-release (1)/google-gson-2.2.4/gson-2.2.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/google-gson-2.2.4-release (1)/google-gson-2.2.4/gson-2.2.4-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/dom4j-2.0.0-ALPHA-2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/workspace/dom4j-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

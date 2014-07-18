@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="20.204">
+  <properties />
+            <testcase name="test" time="20.204" classname="com.everbridge.member.appium.login.page.LoginTest">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:18:15&apos;
+System info: host: &apos;Kangsoft-PC&apos;, ip: &apos;192.168.1.81&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Session ID: 8fd69edc-733b-4e2d-9147-c243c305c502
+Driver info: com.everbridge.member.appium.common.SwipeableWebDriver
+Capabilities [{platformVersion=4.1, app=D:\workspace\Eclipse-jee-kepler-SR2-win32-x86_64\MobileMemberAutomation\apps\MobileMemberApp\Member_QA_30_1108_041614.apk, platform=WINDOWS, databaseEnabled=false, javascriptEnabled=true, browserName=, app-package=com.everbridge.mobile.iv.recipient, webStorageEnabled=false, device=Android, app-activity=.SplashActivity, desired={platform=WINDOWS, app=D:\workspace\Eclipse-jee-kepler-SR2-win32-x86_64\MobileMemberAutomation\apps\MobileMemberApp\Member_QA_30_1108_041614.apk, browserName=, app-package=com.everbridge.mobile.iv.recipient, device=Android, app-activity=.SplashActivity, version=4.4.2}, warnings={}, takesScreenshot=true, version=4.4.2}]"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.41.0', revision: '3192d8a', time: '2014-03-27 17:18:15'
+System info: host: 'Kangsoft-PC', ip: '192.168.1.81', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_45'
+Session ID: 8fd69edc-733b-4e2d-9147-c243c305c502
+Driver info: com.everbridge.member.appium.common.SwipeableWebDriver
+Capabilities [{platformVersion=4.1, app=D:\workspace\Eclipse-jee-kepler-SR2-win32-x86_64\MobileMemberAutomation\apps\MobileMemberApp\Member_QA_30_1108_041614.apk, platform=WINDOWS, databaseEnabled=false, javascriptEnabled=true, browserName=, app-package=com.everbridge.mobile.iv.recipient, webStorageEnabled=false, device=Android, app-activity=.SplashActivity, desired={platform=WINDOWS, app=D:\workspace\Eclipse-jee-kepler-SR2-win32-x86_64\MobileMemberAutomation\apps\MobileMemberApp\Member_QA_30_1108_041614.apk, browserName=, app-package=com.everbridge.mobile.iv.recipient, device=Android, app-activity=.SplashActivity, version=4.4.2}, warnings={}, takesScreenshot=true, version=4.4.2}]
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:389)
+  org.openqa.selenium.By$ById.findElement(By.java:214)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:340)
+  org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+  org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+  com.sun.proxy.$Proxy8.clear(Unknown Source)
+  com.everbridge.member.appium.login.page.LoginPage.inputUserName(LoginPage.java:52)
+  com.everbridge.member.appium.login.page.LoginTest.test(LoginTest.java:68)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+  org.testng.TestNG.run(TestNG.java:1057)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

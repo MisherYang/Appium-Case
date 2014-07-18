@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+	verbose="10"
+	name="Default"
+	parallel="false"
+	thread-count="1"
+	preserve-order="true">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+		<test name="LoginTest">
+	    <classes>
+	        <class name="com.everbridge.member.appium.login.LoginTest"></class>
+	    </classes>
+	</test>
+		<test name="CreateUnsolicitedMsgTest">
+	    <classes>
+	        <class name="com.everbridge.member.appium.msglist.CreateUnsolicitedMsgTest"></class>
+	    </classes>
+	</test>
+	
+	<test name="CloseDriver">
+	    <classes>
+	        <class name="com.everbridge.manager.common.CloseDriver"></class>
+	    </classes>
+	</test>
+</suite>
